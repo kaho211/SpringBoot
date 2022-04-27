@@ -1,0 +1,49 @@
+<!-- 確認画面 -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8" />
+    <title>確認画面</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>お問合せは以下の内容でよろしいでしょうか。</h1>
+      <form th:action="@{/forms}" th:method="post">
+        <div class="form-group">
+          <label class="control-label">名前</label>
+          <div th:text="*{name}"></div>
+          <input
+            class="form-control"
+            type="hidden"
+            name="name"
+            th:value="*{name}"
+          />
+        </div>
+        <div class="form-group">
+          <label class="control-label">メールアドレス</label>
+          <div th:text="*{email}"></div>
+          <input
+            class="form-control"
+            type="hidden"
+            name="email"
+            th:value="*{email}"
+          />
+        </div>
+        <div class="form-group">
+          <label class="control-label">お問合せ内容</label>
+          <div th:text="*{inquiry}"></div>
+          <input
+            class="form-control"
+            type="hidden"
+            name="inquiry"
+            th:value="*{inquiry}"
+          />
+        </div>
+        <button class="btn btn-default" type="submit">送信</button>
+      </form>
+      <div class="pull-right">
+        <a class="btn btn-link" href="/forms/new">戻る</a>
+      </div>
+    </div>
+  </body>
+</html>

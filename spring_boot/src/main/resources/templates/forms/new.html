@@ -1,0 +1,31 @@
+<!-- フォームに名前、メアド、内容を書いて送信する画面 -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8" />
+    <title>New Contact</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>New Contact</h1>
+      <form th:action="@{/forms/confirm}" th:method="post">
+        <div class="form-group">
+          <label class="control-label">名前</label>
+          <input class="form-control" type="text" name="name" />
+        </div>
+        <div class="form-group">
+          <label class="control-label">メールアドレス</label>
+          <input class="form-control" type="text" name="email" />
+        </div>
+        <div class="form-group">
+          <label class="control-label">お問合せ内容</label>
+          <input class="form-control" type="text" name="inquiry" />
+        </div>
+        <button class="btn btn-default" type="submit">作成</button>
+      </form>
+      <div class="pull-right">
+        <a class="btn btn-link" href="/forms">一覧画面へ</a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!-- 送信したもの見れる画面 -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8" />
+    <title>お問合せ完了画面</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>お問合せ完了</h1>
+      <div th:object="${user}">
+        <div>
+          <label>名前</label>
+          <p th:text="*{name}"></p>
+        </div>
+        <div>
+          <label>メールアドレス</label>
+          <p th:text="*{email}"></p>
+        </div>
+        <div>
+          <label>お問合せ内容</label>
+          <p th:text="*{inquiry}"></p>
+        </div>
+      </div>
+      <div class="pull-right">
+        <a class="btn btn-link" href="/forms">一覧画面へ</a>
+      </div>
+    </div>
+  </body>
+</html>
