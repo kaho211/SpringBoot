@@ -1,7 +1,7 @@
 package com.example.spring_boot.entity;
 
 // Formテーブル作成
-// ここにデータベースの内容書く。どんなデータを持ってきたいか。なぜjavaxをimportできない？
+// ここにデータベースの内容書く。どんなデータを持ってきたいか。
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

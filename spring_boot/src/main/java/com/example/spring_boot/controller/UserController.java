@@ -19,9 +19,10 @@ import com.example.spring_boot.entity.User;
 import com.example.spring_boot.service.UserService;
 
 @Controller
-@RequestMapping("/users") // このクラスのメソッドはhttp://localhost:8080/users から始まるURLにマッピングされている
+@RequestMapping("/users") // このクラスのメソッドはhttp://localhost:8080/usersから始まるURLにマッピングされている
 public class UserController {
     @Autowired
+    // (required = false)
     private UserService userService;
 
     @GetMapping

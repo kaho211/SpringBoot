@@ -1,0 +1,1231 @@
+2022-04-27 16:18:28.312  INFO 16172 --- [restartedMain] com.example.spring_boot.Application      : Starting Application using Java 17.0.2 on DESKTOP-G2IFI79 with PID 16172 (C:\Users\kahof\Desktop\training\springboot\spring_boot\target\classes started by kahof in C:\Users\kahof\Desktop\training\springboot\spring_boot)
+2022-04-27 16:18:28.318  INFO 16172 --- [restartedMain] com.example.spring_boot.Application      : No active profile set, falling back to 1 default profile: "default"
+2022-04-27 16:18:28.396  INFO 16172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-27 16:18:28.397  INFO 16172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-27 16:18:29.855  INFO 16172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-27 16:18:29.873  INFO 16172 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-27 16:18:29.875  INFO 16172 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/10.0.18]
+2022-04-27 16:18:29.968  INFO 16172 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-27 16:18:29.971  INFO 16172 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1570 ms
+2022-04-27 16:18:30.299 DEBUG 16172 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-04-27 16:18:30.420 TRACE 16172 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.e.s.c.HelloController:
+	{ [/]}: index()
+2022-04-27 16:18:30.425 TRACE 16172 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2022-04-27 16:18:30.429 DEBUG 16172 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-04-27 16:18:30.437 DEBUG 16172 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2022-04-27 16:18:30.448 TRACE 16172 --- [restartedMain] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2022-04-27 16:18:30.466 TRACE 16172 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-04-27 16:18:30.469 TRACE 16172 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-27 16:18:30.471 DEBUG 16172 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-04-27 16:18:30.485 DEBUG 16172 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-04-27 16:18:30.582  INFO 16172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-27 16:18:30.634  INFO 16172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-27 16:18:30.644  INFO 16172 --- [restartedMain] com.example.spring_boot.Application      : Started Application in 2.805 seconds (JVM running for 3.438)
+2022-04-27 16:18:45.795  INFO 16172 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-27 16:18:45.796  INFO 16172 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-27 16:18:45.797 TRACE 16172 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@4cf3eeae
+2022-04-27 16:18:45.798 TRACE 16172 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@4077dfc2
+2022-04-27 16:18:45.800 TRACE 16172 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.theme.FixedThemeResolver@66dba850
+2022-04-27 16:18:45.801 TRACE 16172 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected DefaultRequestToViewNameTranslator
+2022-04-27 16:18:45.803 TRACE 16172 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected SessionFlashMapManager
+2022-04-27 16:18:45.804 DEBUG 16172 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-04-27 16:18:45.805  INFO 16172 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-04-27 16:18:45.825 TRACE 16172 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 16:18:45.836 TRACE 16172 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.spring_boot.controller.HelloController#index()
+2022-04-27 16:18:45.852 TRACE 16172 --- [http-nio-8080-exec-2] o.s.web.method.HandlerMethod             : Arguments: []
+2022-04-27 16:18:45.858 TRACE 16172 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 16:18:45.867 DEBUG 16172 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-04-27 16:18:45.868 TRACE 16172 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@3bd1c810] 
+2022-04-27 16:18:46.112 DEBUG 16172 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2022-04-27 16:32:16.515  INFO 18476 --- [restartedMain] com.example.spring_boot.Application      : Starting Application using Java 17.0.2 on DESKTOP-G2IFI79 with PID 18476 (C:\Users\kahof\Desktop\training\springboot\spring_boot\target\classes started by kahof in C:\Users\kahof\Desktop\training\springboot\spring_boot)
+2022-04-27 16:32:16.519  INFO 18476 --- [restartedMain] com.example.spring_boot.Application      : No active profile set, falling back to 1 default profile: "default"
+2022-04-27 16:32:16.579  INFO 18476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-27 16:32:16.580  INFO 18476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-27 16:32:17.720  INFO 18476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-27 16:32:17.732  INFO 18476 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-27 16:32:17.732  INFO 18476 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/10.0.18]
+2022-04-27 16:32:17.824  INFO 18476 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-27 16:32:17.827  INFO 18476 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1246 ms
+2022-04-27 16:32:18.068 DEBUG 18476 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-04-27 16:32:18.189 TRACE 18476 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.e.s.c.HelloController:
+	{ [/]}: index()
+2022-04-27 16:32:18.195 TRACE 18476 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2022-04-27 16:32:18.200 DEBUG 18476 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-04-27 16:32:18.209 DEBUG 18476 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2022-04-27 16:32:18.216 TRACE 18476 --- [restartedMain] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2022-04-27 16:32:18.236 TRACE 18476 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-04-27 16:32:18.238 TRACE 18476 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-27 16:32:18.239 DEBUG 18476 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-04-27 16:32:18.255 DEBUG 18476 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-04-27 16:32:18.376  INFO 18476 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-27 16:32:18.440  INFO 18476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-27 16:32:18.456  INFO 18476 --- [restartedMain] com.example.spring_boot.Application      : Started Application in 2.458 seconds (JVM running for 3.05)
+2022-04-27 16:32:32.254  INFO 18476 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-27 16:32:32.255  INFO 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-27 16:32:32.256 TRACE 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@3d3e4d22
+2022-04-27 16:32:32.257 TRACE 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@52c88274
+2022-04-27 16:32:32.258 TRACE 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.theme.FixedThemeResolver@26514b4f
+2022-04-27 16:32:32.261 TRACE 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected DefaultRequestToViewNameTranslator
+2022-04-27 16:32:32.263 TRACE 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected SessionFlashMapManager
+2022-04-27 16:32:32.265 DEBUG 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-04-27 16:32:32.266  INFO 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2022-04-27 16:32:32.289 TRACE 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/00000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 16:32:32.307 TRACE 18476 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 16:32:32.313 DEBUG 18476 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 16:32:32.314 TRACE 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 16:32:32.316 DEBUG 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 16:32:32.328 TRACE 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 16:32:32.331 TRACE 18476 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 16:32:32.334 TRACE 18476 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 16:32:32.350 TRACE 18476 --- [http-nio-8080-exec-1] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@12e92da4, org.apache.catalina.connector.ResponseFacade@4c1ca6e4]
+2022-04-27 16:32:32.377 TRACE 18476 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 16:32:32.383 DEBUG 18476 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 16:32:32.384 TRACE 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@52363e46] 
+2022-04-27 16:32:32.768 DEBUG 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 17:09:09.580  INFO 6832 --- [restartedMain] com.example.spring_boot.Application      : Starting Application using Java 17.0.2 on DESKTOP-G2IFI79 with PID 6832 (C:\Users\kahof\Desktop\training\springboot\spring_boot\target\classes started by kahof in C:\Users\kahof\Desktop\training\springboot\spring_boot)
+2022-04-27 17:09:09.583  INFO 6832 --- [restartedMain] com.example.spring_boot.Application      : No active profile set, falling back to 1 default profile: "default"
+2022-04-27 17:09:09.684  INFO 6832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-27 17:09:09.685  INFO 6832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-27 17:09:10.994  INFO 6832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-27 17:09:11.004  INFO 6832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-27 17:09:11.005  INFO 6832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/10.0.18]
+2022-04-27 17:09:11.090  INFO 6832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-27 17:09:11.092  INFO 6832 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1405 ms
+2022-04-27 17:09:11.323 DEBUG 6832 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-04-27 17:09:11.428 TRACE 6832 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.e.s.c.HelloController:
+	{ [/]}: index()
+2022-04-27 17:09:11.432 TRACE 6832 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+	{ [/error]}: error(HttpServletRequest)
+2022-04-27 17:09:11.436 DEBUG 6832 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-04-27 17:09:11.443 DEBUG 6832 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2022-04-27 17:09:11.449 TRACE 6832 --- [restartedMain] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2022-04-27 17:09:11.466 TRACE 6832 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-04-27 17:09:11.468 TRACE 6832 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-27 17:09:11.469 DEBUG 6832 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-04-27 17:09:11.484 DEBUG 6832 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-04-27 17:09:11.600  INFO 6832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-27 17:09:11.651  INFO 6832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-27 17:09:11.667  INFO 6832 --- [restartedMain] com.example.spring_boot.Application      : Started Application in 2.6 seconds (JVM running for 3.254)
+2022-04-27 17:09:27.284  INFO 6832 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:09:27.286  INFO 6832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-27 17:09:27.287 TRACE 6832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@4239a4b1
+2022-04-27 17:09:27.287 TRACE 6832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@1aa67f9d
+2022-04-27 17:09:27.288 TRACE 6832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.theme.FixedThemeResolver@7b2c5d5e
+2022-04-27 17:09:27.290 TRACE 6832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected DefaultRequestToViewNameTranslator
+2022-04-27 17:09:27.292 TRACE 6832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected SessionFlashMapManager
+2022-04-27 17:09:27.293 DEBUG 6832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-04-27 17:09:27.295  INFO 6832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2022-04-27 17:09:27.318 TRACE 6832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/0000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:09:27.336 TRACE 6832 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 17:09:27.342 DEBUG 6832 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 17:09:27.343 TRACE 6832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 17:09:27.344 DEBUG 6832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 17:09:27.355 TRACE 6832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:09:27.359 TRACE 6832 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 17:09:27.361 TRACE 6832 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 17:09:27.379 TRACE 6832 --- [http-nio-8080-exec-1] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@21073503, org.apache.catalina.connector.ResponseFacade@9198b4c]
+2022-04-27 17:09:27.410 TRACE 6832 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 17:09:27.418 DEBUG 6832 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 17:09:27.419 TRACE 6832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@38fed772] 
+2022-04-27 17:09:27.806 DEBUG 6832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 17:21:08.839  INFO 6780 --- [restartedMain] com.example.spring_boot.Application      : Starting Application using Java 17.0.2 on DESKTOP-G2IFI79 with PID 6780 (C:\Users\kahof\Desktop\training\springboot\spring_boot\target\classes started by kahof in C:\Users\kahof\Desktop\training\springboot\spring_boot)
+2022-04-27 17:21:08.842  INFO 6780 --- [restartedMain] com.example.spring_boot.Application      : No active profile set, falling back to 1 default profile: "default"
+2022-04-27 17:21:08.913  INFO 6780 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-27 17:21:08.915  INFO 6780 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-27 17:21:10.662  INFO 6780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-27 17:21:10.683  INFO 6780 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-27 17:21:10.685  INFO 6780 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/10.0.18]
+2022-04-27 17:21:10.785  INFO 6780 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-27 17:21:10.787  INFO 6780 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1868 ms
+2022-04-27 17:21:11.061 DEBUG 6780 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-04-27 17:21:11.185 TRACE 6780 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.e.s.c.HelloController:
+	{ [/]}: index()
+2022-04-27 17:21:11.190 TRACE 6780 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2022-04-27 17:21:11.195 DEBUG 6780 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-04-27 17:21:11.203 DEBUG 6780 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2022-04-27 17:21:11.211 TRACE 6780 --- [restartedMain] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2022-04-27 17:21:11.230 TRACE 6780 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-04-27 17:21:11.234 TRACE 6780 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-27 17:21:11.239 DEBUG 6780 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-04-27 17:21:11.263 DEBUG 6780 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-04-27 17:21:11.387  INFO 6780 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-27 17:21:11.440  INFO 6780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-27 17:21:11.455  INFO 6780 --- [restartedMain] com.example.spring_boot.Application      : Started Application in 3.046 seconds (JVM running for 3.75)
+2022-04-27 17:21:17.688  INFO 6780 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:21:17.689  INFO 6780 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-27 17:21:17.690 TRACE 6780 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@36a5616
+2022-04-27 17:21:17.691 TRACE 6780 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@3fcb779c
+2022-04-27 17:21:17.691 TRACE 6780 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.theme.FixedThemeResolver@74982a72
+2022-04-27 17:21:17.693 TRACE 6780 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Detected DefaultRequestToViewNameTranslator
+2022-04-27 17:21:17.694 TRACE 6780 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Detected SessionFlashMapManager
+2022-04-27 17:21:17.695 DEBUG 6780 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-04-27 17:21:17.695  INFO 6780 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-04-27 17:21:17.713 TRACE 6780 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/0000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:21:17.725 TRACE 6780 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 17:21:17.730 DEBUG 6780 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 17:21:17.730 TRACE 6780 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 17:21:17.732 DEBUG 6780 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 17:21:17.740 TRACE 6780 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:21:17.743 TRACE 6780 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 17:21:17.745 TRACE 6780 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 17:21:17.760 TRACE 6780 --- [http-nio-8080-exec-4] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@167006e0, org.apache.catalina.connector.ResponseFacade@489c2869]
+2022-04-27 17:21:17.788 TRACE 6780 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 17:21:17.795 DEBUG 6780 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 17:21:17.796 TRACE 6780 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@123b8e9e] 
+2022-04-27 17:21:18.218 DEBUG 6780 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 17:22:25.473  INFO 4568 --- [restartedMain] com.example.spring_boot.Application      : Starting Application using Java 17.0.2 on DESKTOP-G2IFI79 with PID 4568 (C:\Users\kahof\Desktop\training\springboot\spring_boot\target\classes started by kahof in C:\Users\kahof\Desktop\training\springboot\spring_boot)
+2022-04-27 17:22:25.476  INFO 4568 --- [restartedMain] com.example.spring_boot.Application      : No active profile set, falling back to 1 default profile: "default"
+2022-04-27 17:22:25.555  INFO 4568 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-27 17:22:25.556  INFO 4568 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-27 17:22:26.698  INFO 4568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-27 17:22:26.709  INFO 4568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-27 17:22:26.710  INFO 4568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/10.0.18]
+2022-04-27 17:22:26.805  INFO 4568 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-27 17:22:26.806  INFO 4568 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1248 ms
+2022-04-27 17:22:27.060 DEBUG 4568 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-04-27 17:22:27.172 TRACE 4568 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.e.s.c.HelloController:
+	{ [/]}: index()
+2022-04-27 17:22:27.177 TRACE 4568 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2022-04-27 17:22:27.182 DEBUG 4568 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-04-27 17:22:27.192 DEBUG 4568 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2022-04-27 17:22:27.200 TRACE 4568 --- [restartedMain] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2022-04-27 17:22:27.222 TRACE 4568 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-04-27 17:22:27.224 TRACE 4568 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-27 17:22:27.225 DEBUG 4568 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-04-27 17:22:27.249 DEBUG 4568 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-04-27 17:22:27.380  INFO 4568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-27 17:22:27.425  INFO 4568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-27 17:22:27.440  INFO 4568 --- [restartedMain] com.example.spring_boot.Application      : Started Application in 2.458 seconds (JVM running for 3.057)
+2022-04-27 17:22:37.365  INFO 4568 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:22:37.367  INFO 4568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-27 17:22:37.367 TRACE 4568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@2535879c
+2022-04-27 17:22:37.368 TRACE 4568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@395fd87b
+2022-04-27 17:22:37.368 TRACE 4568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.theme.FixedThemeResolver@3d95b89f
+2022-04-27 17:22:37.370 TRACE 4568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected DefaultRequestToViewNameTranslator
+2022-04-27 17:22:37.371 TRACE 4568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected SessionFlashMapManager
+2022-04-27 17:22:37.372 DEBUG 4568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-04-27 17:22:37.373  INFO 4568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2022-04-27 17:22:37.383 TRACE 4568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/0000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:22:37.392 TRACE 4568 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 17:22:37.396 DEBUG 4568 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 17:22:37.396 TRACE 4568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 17:22:37.397 DEBUG 4568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 17:22:37.402 TRACE 4568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:22:37.405 TRACE 4568 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 17:22:37.406 TRACE 4568 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 17:22:37.414 TRACE 4568 --- [http-nio-8080-exec-1] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@50d27d25, org.apache.catalina.connector.ResponseFacade@5da90940]
+2022-04-27 17:22:37.429 TRACE 4568 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 17:22:37.433 DEBUG 4568 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 17:22:37.434 TRACE 4568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@35064c81] 
+2022-04-27 17:22:37.644 DEBUG 4568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 17:22:41.744 TRACE 4568 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/0000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:22:41.746 TRACE 4568 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 17:22:41.748 DEBUG 4568 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 17:22:41.749 TRACE 4568 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 17:22:41.750 DEBUG 4568 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 17:22:41.751 TRACE 4568 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:22:41.753 TRACE 4568 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 17:22:41.754 TRACE 4568 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 17:22:41.755 TRACE 4568 --- [http-nio-8080-exec-2] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@12fb1f6e, org.apache.catalina.connector.ResponseFacade@1c3ce341]
+2022-04-27 17:22:41.773 TRACE 4568 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 17:22:41.774 TRACE 4568 --- [http-nio-8080-exec-2] o.s.w.s.v.InternalResourceViewResolver   : View with key [error] served from cache
+2022-04-27 17:22:41.775 DEBUG 4568 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 17:22:41.776 TRACE 4568 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@1803741e] 
+2022-04-27 17:22:41.779 DEBUG 4568 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 17:24:24.095  INFO 18812 --- [restartedMain] com.example.spring_boot.Application      : Starting Application using Java 17.0.2 on DESKTOP-G2IFI79 with PID 18812 (C:\Users\kahof\Desktop\training\springboot\spring_boot\target\classes started by kahof in C:\Users\kahof\Desktop\training\springboot\spring_boot)
+2022-04-27 17:24:24.098  INFO 18812 --- [restartedMain] com.example.spring_boot.Application      : No active profile set, falling back to 1 default profile: "default"
+2022-04-27 17:24:24.178  INFO 18812 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-27 17:24:24.179  INFO 18812 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-27 17:24:25.491  INFO 18812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-27 17:24:25.501  INFO 18812 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-27 17:24:25.502  INFO 18812 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/10.0.18]
+2022-04-27 17:24:25.569  INFO 18812 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-27 17:24:25.571  INFO 18812 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1389 ms
+2022-04-27 17:24:25.774 DEBUG 18812 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-04-27 17:24:25.861 TRACE 18812 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.e.s.c.HelloController:
+	{ [/]}: index()
+2022-04-27 17:24:25.867 TRACE 18812 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2022-04-27 17:24:25.870 DEBUG 18812 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-04-27 17:24:25.876 DEBUG 18812 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2022-04-27 17:24:25.881 TRACE 18812 --- [restartedMain] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2022-04-27 17:24:25.891 TRACE 18812 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-04-27 17:24:25.892 TRACE 18812 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-27 17:24:25.893 DEBUG 18812 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-04-27 17:24:25.904 DEBUG 18812 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-04-27 17:24:25.994  INFO 18812 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-27 17:24:26.034  INFO 18812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-27 17:24:26.046  INFO 18812 --- [restartedMain] com.example.spring_boot.Application      : Started Application in 2.397 seconds (JVM running for 2.968)
+2022-04-27 17:24:31.026  INFO 18812 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:24:31.027  INFO 18812 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-27 17:24:31.029 TRACE 18812 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@2535879c
+2022-04-27 17:24:31.029 TRACE 18812 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@395fd87b
+2022-04-27 17:24:31.030 TRACE 18812 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.theme.FixedThemeResolver@3d95b89f
+2022-04-27 17:24:31.031 TRACE 18812 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected DefaultRequestToViewNameTranslator
+2022-04-27 17:24:31.032 TRACE 18812 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected SessionFlashMapManager
+2022-04-27 17:24:31.033 DEBUG 18812 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-04-27 17:24:31.033  INFO 18812 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-04-27 17:24:31.044 TRACE 18812 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/0000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:24:31.051 TRACE 18812 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 17:24:31.054 DEBUG 18812 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 17:24:31.055 TRACE 18812 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 17:24:31.056 DEBUG 18812 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 17:24:31.061 TRACE 18812 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:24:31.063 TRACE 18812 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 17:24:31.064 TRACE 18812 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 17:24:31.072 TRACE 18812 --- [http-nio-8080-exec-2] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@1c756ac5, org.apache.catalina.connector.ResponseFacade@f1a0e7]
+2022-04-27 17:24:31.089 TRACE 18812 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 17:24:31.096 DEBUG 18812 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 17:24:31.097 TRACE 18812 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@3624fc88] 
+2022-04-27 17:24:31.520 DEBUG 18812 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 17:26:27.628  INFO 20564 --- [restartedMain] com.example.spring_boot.Application      : Starting Application using Java 17.0.2 on DESKTOP-G2IFI79 with PID 20564 (C:\Users\kahof\Desktop\training\springboot\spring_boot\target\classes started by kahof in C:\Users\kahof\Desktop\training\springboot\spring_boot)
+2022-04-27 17:26:27.631  INFO 20564 --- [restartedMain] com.example.spring_boot.Application      : No active profile set, falling back to 1 default profile: "default"
+2022-04-27 17:26:27.695  INFO 20564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-27 17:26:27.697  INFO 20564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-27 17:26:28.828  INFO 20564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-27 17:26:28.838  INFO 20564 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-27 17:26:28.839  INFO 20564 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/10.0.18]
+2022-04-27 17:26:28.919  INFO 20564 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-27 17:26:28.920  INFO 20564 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1220 ms
+2022-04-27 17:26:29.147 DEBUG 20564 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-04-27 17:26:29.280 TRACE 20564 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.e.s.c.HelloController:
+	{ [/]}: index()
+2022-04-27 17:26:29.286 TRACE 20564 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+	{ [/error]}: error(HttpServletRequest)
+2022-04-27 17:26:29.295 DEBUG 20564 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-04-27 17:26:29.308 DEBUG 20564 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2022-04-27 17:26:29.324 TRACE 20564 --- [restartedMain] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2022-04-27 17:26:29.348 TRACE 20564 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-04-27 17:26:29.349 TRACE 20564 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-27 17:26:29.351 DEBUG 20564 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-04-27 17:26:29.369 DEBUG 20564 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-04-27 17:26:29.479  INFO 20564 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-27 17:26:29.521  INFO 20564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-27 17:26:29.532  INFO 20564 --- [restartedMain] com.example.spring_boot.Application      : Started Application in 2.37 seconds (JVM running for 2.986)
+2022-04-27 17:26:33.599  INFO 20564 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:26:33.600  INFO 20564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-27 17:26:33.601 TRACE 20564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@57e4017e
+2022-04-27 17:26:33.602 TRACE 20564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@78cc5b74
+2022-04-27 17:26:33.603 TRACE 20564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.theme.FixedThemeResolver@5e502a40
+2022-04-27 17:26:33.604 TRACE 20564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected DefaultRequestToViewNameTranslator
+2022-04-27 17:26:33.605 TRACE 20564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected SessionFlashMapManager
+2022-04-27 17:26:33.606 DEBUG 20564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-04-27 17:26:33.606  INFO 20564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-04-27 17:26:33.616 TRACE 20564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/0000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:26:33.631 TRACE 20564 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 17:26:33.633 DEBUG 20564 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 17:26:33.634 TRACE 20564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 17:26:33.635 DEBUG 20564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 17:26:33.639 TRACE 20564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:26:33.641 TRACE 20564 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 17:26:33.642 TRACE 20564 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 17:26:33.650 TRACE 20564 --- [http-nio-8080-exec-1] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@3137f50b, org.apache.catalina.connector.ResponseFacade@4789391f]
+2022-04-27 17:26:33.663 TRACE 20564 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 17:26:33.667 DEBUG 20564 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 17:26:33.668 TRACE 20564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@458d4a24] 
+2022-04-27 17:26:33.873 DEBUG 20564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 17:28:39.296  INFO 23464 --- [restartedMain] com.example.spring_boot.Application      : Starting Application using Java 17.0.2 on DESKTOP-G2IFI79 with PID 23464 (C:\Users\kahof\Desktop\training\springboot\spring_boot\target\classes started by kahof in C:\Users\kahof\Desktop\training\springboot\spring_boot)
+2022-04-27 17:28:39.299  INFO 23464 --- [restartedMain] com.example.spring_boot.Application      : No active profile set, falling back to 1 default profile: "default"
+2022-04-27 17:28:39.381  INFO 23464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-27 17:28:39.382  INFO 23464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-27 17:28:40.740  INFO 23464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-27 17:28:40.768  INFO 23464 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-27 17:28:40.769  INFO 23464 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/10.0.18]
+2022-04-27 17:28:40.861  INFO 23464 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-27 17:28:40.862  INFO 23464 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1479 ms
+2022-04-27 17:28:41.062 DEBUG 23464 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-04-27 17:28:41.140 TRACE 23464 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.e.s.c.HelloController:
+	{ [/]}: index()
+2022-04-27 17:28:41.144 TRACE 23464 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2022-04-27 17:28:41.148 DEBUG 23464 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-04-27 17:28:41.152 DEBUG 23464 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2022-04-27 17:28:41.157 TRACE 23464 --- [restartedMain] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2022-04-27 17:28:41.169 TRACE 23464 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-04-27 17:28:41.171 TRACE 23464 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-27 17:28:41.172 DEBUG 23464 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-04-27 17:28:41.180 DEBUG 23464 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-04-27 17:28:41.260  INFO 23464 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-27 17:28:41.296  INFO 23464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-27 17:28:41.309  INFO 23464 --- [restartedMain] com.example.spring_boot.Application      : Started Application in 2.471 seconds (JVM running for 3.114)
+2022-04-27 17:28:43.535  INFO 23464 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:28:43.537  INFO 23464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-27 17:28:43.539 TRACE 23464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@2673cb71
+2022-04-27 17:28:43.539 TRACE 23464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@5cd1ed75
+2022-04-27 17:28:43.540 TRACE 23464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.theme.FixedThemeResolver@1193ad25
+2022-04-27 17:28:43.541 TRACE 23464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected DefaultRequestToViewNameTranslator
+2022-04-27 17:28:43.542 TRACE 23464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected SessionFlashMapManager
+2022-04-27 17:28:43.543 DEBUG 23464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-04-27 17:28:43.544  INFO 23464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-04-27 17:28:43.561 TRACE 23464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/0000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:28:43.572 TRACE 23464 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 17:28:43.576 DEBUG 23464 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 17:28:43.578 TRACE 23464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 17:28:43.579 DEBUG 23464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 17:28:43.586 TRACE 23464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:28:43.590 TRACE 23464 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 17:28:43.591 TRACE 23464 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 17:28:43.602 TRACE 23464 --- [http-nio-8080-exec-2] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@5fa7b220, org.apache.catalina.connector.ResponseFacade@4ee5d607]
+2022-04-27 17:28:43.620 TRACE 23464 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 17:28:43.628 DEBUG 23464 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 17:28:43.632 TRACE 23464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@414357a7] 
+2022-04-27 17:28:43.895 DEBUG 23464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 17:29:39.702  INFO 18620 --- [restartedMain] com.example.spring_boot.Application      : Starting Application using Java 17.0.2 on DESKTOP-G2IFI79 with PID 18620 (C:\Users\kahof\Desktop\training\springboot\spring_boot\target\classes started by kahof in C:\Users\kahof\Desktop\training\springboot\spring_boot)
+2022-04-27 17:29:39.706  INFO 18620 --- [restartedMain] com.example.spring_boot.Application      : No active profile set, falling back to 1 default profile: "default"
+2022-04-27 17:29:39.776  INFO 18620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-27 17:29:39.777  INFO 18620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-27 17:29:40.878  INFO 18620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-27 17:29:40.889  INFO 18620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-27 17:29:40.891  INFO 18620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/10.0.18]
+2022-04-27 17:29:40.966  INFO 18620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-27 17:29:40.967  INFO 18620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1189 ms
+2022-04-27 17:29:41.184 DEBUG 18620 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-04-27 17:29:41.298 TRACE 18620 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.e.s.c.HelloController:
+	{ [/]}: index()
+2022-04-27 17:29:41.306 TRACE 18620 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2022-04-27 17:29:41.312 DEBUG 18620 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-04-27 17:29:41.322 DEBUG 18620 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2022-04-27 17:29:41.329 TRACE 18620 --- [restartedMain] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2022-04-27 17:29:41.340 TRACE 18620 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-04-27 17:29:41.342 TRACE 18620 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-27 17:29:41.343 DEBUG 18620 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-04-27 17:29:41.356 DEBUG 18620 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-04-27 17:29:41.456  INFO 18620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-27 17:29:41.496  INFO 18620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-27 17:29:41.508  INFO 18620 --- [restartedMain] com.example.spring_boot.Application      : Started Application in 2.252 seconds (JVM running for 2.996)
+2022-04-27 17:29:44.491  INFO 18620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:29:44.491  INFO 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-27 17:29:44.492 TRACE 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@7a63f32
+2022-04-27 17:29:44.493 TRACE 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@27f8631
+2022-04-27 17:29:44.495 TRACE 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.theme.FixedThemeResolver@10514052
+2022-04-27 17:29:44.495 TRACE 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected DefaultRequestToViewNameTranslator
+2022-04-27 17:29:44.496 TRACE 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected SessionFlashMapManager
+2022-04-27 17:29:44.497 DEBUG 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-04-27 17:29:44.497  INFO 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-04-27 17:29:44.508 TRACE 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/0000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:29:44.517 TRACE 18620 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 17:29:44.519 DEBUG 18620 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 17:29:44.520 TRACE 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 17:29:44.521 DEBUG 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 17:29:44.525 TRACE 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:29:44.527 TRACE 18620 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 17:29:44.529 TRACE 18620 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 17:29:44.538 TRACE 18620 --- [http-nio-8080-exec-1] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@9a55aa5, org.apache.catalina.connector.ResponseFacade@7f106d83]
+2022-04-27 17:29:44.551 TRACE 18620 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 17:29:44.556 DEBUG 18620 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 17:29:44.557 TRACE 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@773ac5e5] 
+2022-04-27 17:29:44.794 DEBUG 18620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 17:34:36.303  INFO 23088 --- [restartedMain] com.example.spring_boot.Application      : Starting Application using Java 17.0.2 on DESKTOP-G2IFI79 with PID 23088 (C:\Users\kahof\Desktop\training\springboot\spring_boot\target\classes started by kahof in C:\Users\kahof\Desktop\training\springboot\spring_boot)
+2022-04-27 17:34:36.306  INFO 23088 --- [restartedMain] com.example.spring_boot.Application      : No active profile set, falling back to 1 default profile: "default"
+2022-04-27 17:34:36.371  INFO 23088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-27 17:34:36.372  INFO 23088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-27 17:34:37.584  INFO 23088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-27 17:34:37.600  INFO 23088 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-27 17:34:37.601  INFO 23088 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/10.0.18]
+2022-04-27 17:34:37.799  INFO 23088 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-27 17:34:37.801  INFO 23088 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1426 ms
+2022-04-27 17:34:38.052 DEBUG 23088 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-04-27 17:34:38.139 TRACE 23088 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.e.s.c.HelloController:
+	{ [/]}: index()
+2022-04-27 17:34:38.144 TRACE 23088 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2022-04-27 17:34:38.148 DEBUG 23088 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-04-27 17:34:38.154 DEBUG 23088 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2022-04-27 17:34:38.160 TRACE 23088 --- [restartedMain] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2022-04-27 17:34:38.170 TRACE 23088 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-04-27 17:34:38.171 TRACE 23088 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-27 17:34:38.172 DEBUG 23088 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-04-27 17:34:38.182 DEBUG 23088 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-04-27 17:34:38.259  INFO 23088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-27 17:34:38.293  INFO 23088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-27 17:34:38.304  INFO 23088 --- [restartedMain] com.example.spring_boot.Application      : Started Application in 2.411 seconds (JVM running for 3.017)
+2022-04-27 17:34:43.770  INFO 23088 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:34:43.772  INFO 23088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-27 17:34:43.773 TRACE 23088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@2535879c
+2022-04-27 17:34:43.774 TRACE 23088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@395fd87b
+2022-04-27 17:34:43.775 TRACE 23088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.theme.FixedThemeResolver@3d95b89f
+2022-04-27 17:34:43.777 TRACE 23088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected DefaultRequestToViewNameTranslator
+2022-04-27 17:34:43.779 TRACE 23088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected SessionFlashMapManager
+2022-04-27 17:34:43.780 DEBUG 23088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-04-27 17:34:43.781  INFO 23088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-04-27 17:34:43.811 TRACE 23088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/0000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:34:43.829 TRACE 23088 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 17:34:43.833 DEBUG 23088 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 17:34:43.834 TRACE 23088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 17:34:43.836 DEBUG 23088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 17:34:43.845 TRACE 23088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:34:43.848 TRACE 23088 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 17:34:43.850 TRACE 23088 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 17:34:43.862 TRACE 23088 --- [http-nio-8080-exec-1] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@1c756ac5, org.apache.catalina.connector.ResponseFacade@f1a0e7]
+2022-04-27 17:34:43.885 TRACE 23088 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 17:34:43.891 DEBUG 23088 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 17:34:43.892 TRACE 23088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@3624fc88] 
+2022-04-27 17:34:44.254 DEBUG 23088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 17:58:35.161  INFO 21652 --- [restartedMain] com.example.spring_boot.Application      : Starting Application using Java 17.0.2 on DESKTOP-G2IFI79 with PID 21652 (C:\Users\kahof\Desktop\training\springboot\spring_boot\target\classes started by kahof in C:\Users\kahof\Desktop\training\springboot\spring_boot)
+2022-04-27 17:58:35.164  INFO 21652 --- [restartedMain] com.example.spring_boot.Application      : No active profile set, falling back to 1 default profile: "default"
+2022-04-27 17:58:35.243  INFO 21652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-27 17:58:35.244  INFO 21652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-27 17:58:36.403  INFO 21652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-27 17:58:36.414  INFO 21652 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-27 17:58:36.414  INFO 21652 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/10.0.18]
+2022-04-27 17:58:36.500  INFO 21652 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-27 17:58:36.501  INFO 21652 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1254 ms
+2022-04-27 17:58:36.725 DEBUG 21652 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-04-27 17:58:36.825 TRACE 21652 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.e.s.c.HelloController:
+	{ [/]}: index()
+2022-04-27 17:58:36.830 TRACE 21652 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2022-04-27 17:58:36.834 DEBUG 21652 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-04-27 17:58:36.840 DEBUG 21652 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2022-04-27 17:58:36.845 TRACE 21652 --- [restartedMain] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2022-04-27 17:58:36.861 TRACE 21652 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-04-27 17:58:36.863 TRACE 21652 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-27 17:58:36.864 DEBUG 21652 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-04-27 17:58:36.876 DEBUG 21652 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-04-27 17:58:36.976  INFO 21652 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-27 17:58:37.024  INFO 21652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-27 17:58:37.036  INFO 21652 --- [restartedMain] com.example.spring_boot.Application      : Started Application in 2.372 seconds (JVM running for 2.944)
+2022-04-27 17:58:52.706  INFO 21652 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:58:52.708  INFO 21652 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-27 17:58:52.709 TRACE 21652 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@2673cb71
+2022-04-27 17:58:52.709 TRACE 21652 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@5cd1ed75
+2022-04-27 17:58:52.710 TRACE 21652 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.theme.FixedThemeResolver@1193ad25
+2022-04-27 17:58:52.711 TRACE 21652 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected DefaultRequestToViewNameTranslator
+2022-04-27 17:58:52.712 TRACE 21652 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected SessionFlashMapManager
+2022-04-27 17:58:52.712 DEBUG 21652 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-04-27 17:58:52.713  INFO 21652 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-04-27 17:58:52.727 TRACE 21652 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/0000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:58:52.738 TRACE 21652 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 17:58:52.742 DEBUG 21652 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 17:58:52.742 TRACE 21652 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 17:58:52.743 DEBUG 21652 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 17:58:52.749 TRACE 21652 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 17:58:52.751 TRACE 21652 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 17:58:52.753 TRACE 21652 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 17:58:52.764 TRACE 21652 --- [http-nio-8080-exec-3] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@58818792, org.apache.catalina.connector.ResponseFacade@3834376b]
+2022-04-27 17:58:52.783 TRACE 21652 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 17:58:52.787 DEBUG 21652 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 17:58:52.787 TRACE 21652 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@22e00405] 
+2022-04-27 17:58:52.951 ERROR 21652 --- [http-nio-8080-exec-3] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-3] Exception processing template "error": An error happened during template parsing (template: "class path resource [templates/error.html]" - line 6, col 86)
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error.html]" - line 6, col 86)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:239) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:371) ~[thymeleaf-spring6-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:191) ~[thymeleaf-spring6-3.1.0.M1.jar:3.1.0.M1]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1399) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1143) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1082) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1004) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:896) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:668) ~[tomcat-embed-core-10.0.18.jar:5.0.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:881) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777) ~[tomcat-embed-core-10.0.18.jar:5.0.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:443) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:367) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:295) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:387) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:233) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:866) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1716) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: org.attoparser.ParseException: (Line = 6, Column = 86) Malformed markup: Attribute "rel" appears more than once in element
+	at org.attoparser.MarkupEventProcessorHandler.handleAttribute(MarkupEventProcessorHandler.java:549) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(ParsingAttributeSequenceUtil.java:300) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:153) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	... 46 common frames omitted
+
+2022-04-27 17:58:52.962 DEBUG 21652 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Error rendering view [org.thymeleaf.spring6.view.ThymeleafView@22e00405]
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error.html]" - line 6, col 86)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:239) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:371) ~[thymeleaf-spring6-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:191) ~[thymeleaf-spring6-3.1.0.M1.jar:3.1.0.M1]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1399) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1143) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1082) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1004) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:896) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:668) ~[tomcat-embed-core-10.0.18.jar:5.0.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:881) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777) ~[tomcat-embed-core-10.0.18.jar:5.0.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:443) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:367) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:295) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:387) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:233) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:866) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1716) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: org.attoparser.ParseException: (Line = 6, Column = 86) Malformed markup: Attribute "rel" appears more than once in element
+	at org.attoparser.MarkupEventProcessorHandler.handleAttribute(MarkupEventProcessorHandler.java:549) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(ParsingAttributeSequenceUtil.java:300) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:153) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	... 46 common frames omitted
+
+2022-04-27 17:58:52.972 DEBUG 21652 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Unresolved failure from "ERROR" dispatch: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error.html]" - line 6, col 86)
+2022-04-27 17:58:52.973 ERROR 21652 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+org.attoparser.ParseException: (Line = 6, Column = 86) Malformed markup: Attribute "rel" appears more than once in element
+	at org.attoparser.MarkupEventProcessorHandler.handleAttribute(MarkupEventProcessorHandler.java:549) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(ParsingAttributeSequenceUtil.java:300) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:153) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:371) ~[thymeleaf-spring6-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:191) ~[thymeleaf-spring6-3.1.0.M1.jar:3.1.0.M1]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1399) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1143) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1082) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1004) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:896) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:668) ~[tomcat-embed-core-10.0.18.jar:5.0.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:881) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777) ~[tomcat-embed-core-10.0.18.jar:5.0.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:443) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:367) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:295) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:387) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:233) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:866) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1716) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+
+2022-04-27 17:58:52.984 ERROR 21652 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost]           : Exception Processing ErrorPage[errorCode=0, location=/error]
+
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error.html]" - line 6, col 86)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1012) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:896) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:668) ~[tomcat-embed-core-10.0.18.jar:5.0.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:881) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777) ~[tomcat-embed-core-10.0.18.jar:5.0.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:443) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:367) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:295) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:387) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:233) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:866) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1716) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.0.18.jar:10.0.18]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/error.html]" - line 6, col 86)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:239) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:371) ~[thymeleaf-spring6-3.1.0.M1.jar:3.1.0.M1]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:191) ~[thymeleaf-spring6-3.1.0.M1.jar:3.1.0.M1]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1399) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1143) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1082) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1004) ~[spring-webmvc-6.0.0-SNAPSHOT.jar:6.0.0-SNAPSHOT]
+	... 35 common frames omitted
+Caused by: org.attoparser.ParseException: (Line = 6, Column = 86) Malformed markup: Attribute "rel" appears more than once in element
+	at org.attoparser.MarkupEventProcessorHandler.handleAttribute(MarkupEventProcessorHandler.java:549) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(ParsingAttributeSequenceUtil.java:300) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:153) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.0.M1.jar:3.1.0.M1]
+	... 46 common frames omitted
+
+2022-04-27 18:11:07.694  INFO 21360 --- [restartedMain] com.example.spring_boot.Application      : Starting Application using Java 17.0.2 on DESKTOP-G2IFI79 with PID 21360 (C:\Users\kahof\Desktop\training\springboot\spring_boot\target\classes started by kahof in C:\Users\kahof\Desktop\training\springboot\spring_boot)
+2022-04-27 18:11:07.702  INFO 21360 --- [restartedMain] com.example.spring_boot.Application      : No active profile set, falling back to 1 default profile: "default"
+2022-04-27 18:11:07.830  INFO 21360 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-27 18:11:07.831  INFO 21360 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-27 18:11:09.834  INFO 21360 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-27 18:11:09.854  INFO 21360 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-27 18:11:09.855  INFO 21360 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/10.0.18]
+2022-04-27 18:11:09.981  INFO 21360 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-27 18:11:09.983  INFO 21360 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2149 ms
+2022-04-27 18:11:10.365 DEBUG 21360 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-04-27 18:11:10.518 TRACE 21360 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.e.s.c.HelloController:
+	{ [/]}: index()
+2022-04-27 18:11:10.524 TRACE 21360 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2022-04-27 18:11:10.529 DEBUG 21360 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-04-27 18:11:10.538 DEBUG 21360 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2022-04-27 18:11:10.547 TRACE 21360 --- [restartedMain] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2022-04-27 18:11:10.566 TRACE 21360 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-04-27 18:11:10.568 TRACE 21360 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-27 18:11:10.571 DEBUG 21360 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-04-27 18:11:10.587 DEBUG 21360 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-04-27 18:11:10.722  INFO 21360 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-27 18:11:10.790  INFO 21360 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-27 18:11:10.809  INFO 21360 --- [restartedMain] com.example.spring_boot.Application      : Started Application in 3.887 seconds (JVM running for 5.223)
+2022-04-27 18:11:12.988  INFO 21360 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:11:12.989  INFO 21360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-27 18:11:12.991 TRACE 21360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@1b3fc8e
+2022-04-27 18:11:12.992 TRACE 21360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@3628da01
+2022-04-27 18:11:12.993 TRACE 21360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.theme.FixedThemeResolver@1532bb63
+2022-04-27 18:11:12.995 TRACE 21360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected DefaultRequestToViewNameTranslator
+2022-04-27 18:11:12.997 TRACE 21360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected SessionFlashMapManager
+2022-04-27 18:11:12.998 DEBUG 21360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-04-27 18:11:12.999  INFO 21360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2022-04-27 18:11:13.022 TRACE 21360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/0000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:11:13.045 TRACE 21360 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 18:11:13.052 DEBUG 21360 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 18:11:13.053 TRACE 21360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:11:13.055 DEBUG 21360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 18:11:13.066 TRACE 21360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:11:13.071 TRACE 21360 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 18:11:13.074 TRACE 21360 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 18:11:13.095 TRACE 21360 --- [http-nio-8080-exec-1] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@fa456ac, org.apache.catalina.connector.ResponseFacade@5f3c70e4]
+2022-04-27 18:11:13.132 TRACE 21360 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 18:11:13.140 DEBUG 21360 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 18:11:13.142 TRACE 21360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@3a24b73f] 
+2022-04-27 18:11:13.614 DEBUG 21360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 18:11:13.634 TRACE 21360 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/5.1.3/css/bootstrap.min.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:11:13.634 TRACE 21360 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/5.1.3/js/bootstrap.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:11:13.636 TRACE 21360 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 18:11:13.637 TRACE 21360 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 18:11:13.638 TRACE 21360 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 18:11:13.638 TRACE 21360 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 18:11:13.642 TRACE 21360 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Applying default cacheSeconds=0
+2022-04-27 18:11:13.643 TRACE 21360 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Applying default cacheSeconds=0
+2022-04-27 18:11:13.671 TRACE 21360 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:11:13.675 DEBUG 21360 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2022-04-27 18:11:13.678 TRACE 21360 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:11:13.682 DEBUG 21360 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2022-04-27 18:49:40.895  INFO 20644 --- [restartedMain] com.example.spring_boot.Application      : Starting Application using Java 17.0.2 on DESKTOP-G2IFI79 with PID 20644 (C:\Users\kahof\Desktop\training\springboot\spring_boot\target\classes started by kahof in C:\Users\kahof\Desktop\training\springboot\spring_boot)
+2022-04-27 18:49:40.901  INFO 20644 --- [restartedMain] com.example.spring_boot.Application      : No active profile set, falling back to 1 default profile: "default"
+2022-04-27 18:49:40.978  INFO 20644 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-27 18:49:40.979  INFO 20644 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-27 18:49:42.949  INFO 20644 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-27 18:49:42.979  INFO 20644 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-27 18:49:42.980  INFO 20644 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/10.0.18]
+2022-04-27 18:49:43.103  INFO 20644 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-27 18:49:43.105  INFO 20644 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2123 ms
+2022-04-27 18:49:43.407 DEBUG 20644 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-04-27 18:49:43.587 TRACE 20644 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.e.s.c.HelloController:
+	{ [/]}: index()
+2022-04-27 18:49:43.594 TRACE 20644 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2022-04-27 18:49:43.598 DEBUG 20644 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-04-27 18:49:43.606 DEBUG 20644 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2022-04-27 18:49:43.613 TRACE 20644 --- [restartedMain] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2022-04-27 18:49:43.629 TRACE 20644 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-04-27 18:49:43.632 TRACE 20644 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-27 18:49:43.632 DEBUG 20644 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-04-27 18:49:43.649 DEBUG 20644 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-04-27 18:49:43.789  INFO 20644 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-27 18:49:43.842  INFO 20644 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-27 18:49:43.860  INFO 20644 --- [restartedMain] com.example.spring_boot.Application      : Started Application in 3.8 seconds (JVM running for 5.331)
+2022-04-27 18:49:45.929  INFO 20644 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:49:45.931  INFO 20644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-27 18:49:45.933 TRACE 20644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@73763654
+2022-04-27 18:49:45.934 TRACE 20644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@2bc0e618
+2022-04-27 18:49:45.936 TRACE 20644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.theme.FixedThemeResolver@7652eb5e
+2022-04-27 18:49:45.940 TRACE 20644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected DefaultRequestToViewNameTranslator
+2022-04-27 18:49:45.942 TRACE 20644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected SessionFlashMapManager
+2022-04-27 18:49:45.945 DEBUG 20644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-04-27 18:49:45.946  INFO 20644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2022-04-27 18:49:45.979 TRACE 20644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/0000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:49:45.997 TRACE 20644 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 18:49:46.005 DEBUG 20644 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 18:49:46.006 TRACE 20644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:49:46.008 DEBUG 20644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 18:49:46.021 TRACE 20644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:49:46.025 TRACE 20644 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 18:49:46.029 TRACE 20644 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 18:49:46.048 TRACE 20644 --- [http-nio-8080-exec-1] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@665792db, org.apache.catalina.connector.ResponseFacade@76da2c85]
+2022-04-27 18:49:46.078 TRACE 20644 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 18:49:46.087 DEBUG 20644 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 18:49:46.089 TRACE 20644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@65b0e1c3] 
+2022-04-27 18:49:46.565 DEBUG 20644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 18:49:46.582 TRACE 20644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/5.1.3/js/bootstrap.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:49:46.582 TRACE 20644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/5.1.3/css/bootstrap.min.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:49:46.585 TRACE 20644 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 18:49:46.585 TRACE 20644 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 18:49:46.586 TRACE 20644 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 18:49:46.586 TRACE 20644 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 18:49:46.591 TRACE 20644 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Applying default cacheSeconds=0
+2022-04-27 18:49:46.591 TRACE 20644 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Applying default cacheSeconds=0
+2022-04-27 18:49:46.619 TRACE 20644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:49:46.617 TRACE 20644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:49:46.622 DEBUG 20644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2022-04-27 18:49:46.623 DEBUG 20644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2022-04-27 18:51:00.880 TRACE 20644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/0000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:51:00.881 TRACE 20644 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 18:51:00.887 DEBUG 20644 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 18:51:00.888 TRACE 20644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:51:00.889 DEBUG 20644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 18:51:00.892 TRACE 20644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:51:00.894 TRACE 20644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 18:51:00.894 TRACE 20644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 18:51:00.895 TRACE 20644 --- [http-nio-8080-exec-6] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@294c116a, org.apache.catalina.connector.ResponseFacade@2816c309]
+2022-04-27 18:51:00.942 TRACE 20644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 18:51:00.946 TRACE 20644 --- [http-nio-8080-exec-6] o.s.w.s.v.InternalResourceViewResolver   : View with key [error] served from cache
+2022-04-27 18:51:00.946 DEBUG 20644 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 18:51:00.946 TRACE 20644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@5b4f1dae] 
+2022-04-27 18:51:00.970 DEBUG 20644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 18:51:01.017 TRACE 20644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/webjars/jquery/3.4.1/jquery.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:51:01.017 TRACE 20644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/5.1.3/css/bootstrap.min.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:51:01.019 TRACE 20644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/5.1.3/js/bootstrap.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:51:01.019 TRACE 20644 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 18:51:01.022 TRACE 20644 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 18:51:01.022 TRACE 20644 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 18:51:01.019 TRACE 20644 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 18:51:01.024 TRACE 20644 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 18:51:01.024 DEBUG 20644 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 18:51:01.024 TRACE 20644 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 18:51:01.024 TRACE 20644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:51:01.024 DEBUG 20644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 18:51:01.024 TRACE 20644 --- [http-nio-8080-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Applying default cacheSeconds=0
+2022-04-27 18:51:01.024 TRACE 20644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:51:01.033 TRACE 20644 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Applying default cacheSeconds=0
+2022-04-27 18:51:01.033 TRACE 20644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error]}, { [/error], produces [text/html]}]
+2022-04-27 18:51:01.033 TRACE 20644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-04-27 18:51:01.040 TRACE 20644 --- [http-nio-8080-exec-8] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@cd25d8d]
+2022-04-27 18:51:01.041 TRACE 20644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:51:01.046 TRACE 20644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:51:01.049 DEBUG 20644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2022-04-27 18:51:01.051 DEBUG 20644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2022-04-27 18:51:01.092 DEBUG 20644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-27 18:51:01.100 TRACE 20644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Apr 27 18:51:01 JST 2022, status=404, error=Not Found, message=No message available, path=/webjars/jquery/3.4.1/jquery.min.js}]
+2022-04-27 18:51:01.199 TRACE 20644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 18:51:01.200 TRACE 20644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:51:01.202 DEBUG 20644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 18:52:42.511  INFO 16276 --- [restartedMain] com.example.spring_boot.Application      : Starting Application using Java 17.0.2 on DESKTOP-G2IFI79 with PID 16276 (C:\Users\kahof\Desktop\training\springboot\spring_boot\target\classes started by kahof in C:\Users\kahof\Desktop\training\springboot\spring_boot)
+2022-04-27 18:52:42.517  INFO 16276 --- [restartedMain] com.example.spring_boot.Application      : No active profile set, falling back to 1 default profile: "default"
+2022-04-27 18:52:42.609  INFO 16276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-27 18:52:42.610  INFO 16276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-27 18:52:44.887  INFO 16276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-27 18:52:44.906  INFO 16276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-27 18:52:44.908  INFO 16276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/10.0.18]
+2022-04-27 18:52:53.331  INFO 16276 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-27 18:52:53.333  INFO 16276 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10720 ms
+2022-04-27 18:52:54.154 DEBUG 16276 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-04-27 18:52:54.401 TRACE 16276 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.e.s.c.HelloController:
+	{ [/]}: index()
+2022-04-27 18:52:54.411 TRACE 16276 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2022-04-27 18:52:54.419 DEBUG 16276 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-04-27 18:52:54.432 DEBUG 16276 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2022-04-27 18:52:54.447 TRACE 16276 --- [restartedMain] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2022-04-27 18:52:54.481 TRACE 16276 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2022-04-27 18:52:54.484 TRACE 16276 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-04-27 18:52:54.486 DEBUG 16276 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-04-27 18:52:54.509 DEBUG 16276 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-04-27 18:52:54.723  INFO 16276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-27 18:52:54.792  INFO 16276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-27 18:52:54.817  INFO 16276 --- [restartedMain] com.example.spring_boot.Application      : Started Application in 13.082 seconds (JVM running for 14.497)
+2022-04-27 18:52:59.895  INFO 16276 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:52:59.899  INFO 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-27 18:52:59.902 TRACE 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@73aff6b4
+2022-04-27 18:52:59.904 TRACE 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@29c6a998
+2022-04-27 18:52:59.908 TRACE 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.theme.FixedThemeResolver@4e1567b0
+2022-04-27 18:52:59.913 TRACE 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected DefaultRequestToViewNameTranslator
+2022-04-27 18:52:59.916 TRACE 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected SessionFlashMapManager
+2022-04-27 18:52:59.918 DEBUG 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-04-27 18:52:59.920  INFO 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2022-04-27 18:52:59.957 TRACE 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/0000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:52:59.978 TRACE 16276 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 18:52:59.987 DEBUG 16276 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 18:52:59.988 TRACE 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:52:59.990 DEBUG 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 18:53:00.004 TRACE 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:53:00.012 TRACE 16276 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 18:53:00.018 TRACE 16276 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 18:53:00.044 TRACE 16276 --- [http-nio-8080-exec-1] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@6c10589a, org.apache.catalina.connector.ResponseFacade@48ded6d3]
+2022-04-27 18:53:00.129 TRACE 16276 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 18:53:00.140 DEBUG 16276 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 18:53:00.142 TRACE 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@381126c6] 
+2022-04-27 18:53:00.570 DEBUG 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 18:53:00.599 TRACE 16276 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/5.1.3/css/bootstrap.min.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:53:00.601 TRACE 16276 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 18:53:00.602 TRACE 16276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/webjars/jquery/3.4.1/jquery.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:53:00.603 TRACE 16276 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/5.1.3/js/bootstrap.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:53:00.603 TRACE 16276 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 18:53:00.602 TRACE 16276 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 18:53:00.604 TRACE 16276 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 18:53:00.604 TRACE 16276 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 18:53:00.607 DEBUG 16276 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 18:53:00.607 TRACE 16276 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 18:53:00.607 TRACE 16276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:53:00.609 DEBUG 16276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 18:53:00.610 TRACE 16276 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Applying default cacheSeconds=0
+2022-04-27 18:53:00.610 TRACE 16276 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Applying default cacheSeconds=0
+2022-04-27 18:53:00.610 TRACE 16276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:53:00.612 TRACE 16276 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error]}, { [/error], produces [text/html]}]
+2022-04-27 18:53:00.614 TRACE 16276 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-04-27 18:53:00.615 TRACE 16276 --- [http-nio-8080-exec-2] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@7c3d8f5]
+2022-04-27 18:53:00.626 TRACE 16276 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:53:00.629 DEBUG 16276 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2022-04-27 18:53:00.629 TRACE 16276 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:53:00.631 DEBUG 16276 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2022-04-27 18:53:00.640 DEBUG 16276 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-27 18:53:00.642 TRACE 16276 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Apr 27 18:53:00 JST 2022, status=404, error=Not Found, message=No message available, path=/webjars/jquery/3.4.1/jquery.min.js}]
+2022-04-27 18:53:00.690 TRACE 16276 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 18:53:00.691 TRACE 16276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:53:00.692 DEBUG 16276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 18:53:02.113 TRACE 16276 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/0000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:53:02.120 TRACE 16276 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 18:53:02.125 DEBUG 16276 --- [http-nio-8080-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 18:53:02.126 TRACE 16276 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:53:02.129 DEBUG 16276 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 18:53:02.142 TRACE 16276 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:53:02.145 TRACE 16276 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 18:53:02.152 TRACE 16276 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 18:53:02.154 TRACE 16276 --- [http-nio-8080-exec-10] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@5b7ac7ae, org.apache.catalina.connector.ResponseFacade@55bd32b1]
+2022-04-27 18:53:02.231 TRACE 16276 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 18:53:02.237 TRACE 16276 --- [http-nio-8080-exec-10] o.s.w.s.v.InternalResourceViewResolver   : View with key [error] served from cache
+2022-04-27 18:53:02.238 DEBUG 16276 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 18:53:02.240 TRACE 16276 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@5182acde] 
+2022-04-27 18:53:02.262 DEBUG 16276 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 18:53:02.315 TRACE 16276 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/webjars/jquery/3.4.1/jquery.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:53:02.315 TRACE 16276 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/5.1.3/css/bootstrap.min.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:53:02.316 TRACE 16276 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/5.1.3/js/bootstrap.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:53:02.319 TRACE 16276 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 18:53:02.321 TRACE 16276 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 18:53:02.322 TRACE 16276 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 18:53:02.322 TRACE 16276 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 18:53:02.323 TRACE 16276 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 18:53:02.324 TRACE 16276 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 18:53:02.326 DEBUG 16276 --- [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 18:53:02.328 TRACE 16276 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:53:02.330 TRACE 16276 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Applying default cacheSeconds=0
+2022-04-27 18:53:02.333 DEBUG 16276 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 18:53:02.331 TRACE 16276 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Applying default cacheSeconds=0
+2022-04-27 18:53:02.338 TRACE 16276 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 18:53:02.341 TRACE 16276 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error]}, { [/error], produces [text/html]}]
+2022-04-27 18:53:02.345 TRACE 16276 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:53:02.349 TRACE 16276 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-04-27 18:53:02.350 DEBUG 16276 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2022-04-27 18:53:02.354 TRACE 16276 --- [http-nio-8080-exec-5] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@207f34d6]
+2022-04-27 18:53:02.352 TRACE 16276 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:53:02.358 DEBUG 16276 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-27 18:53:02.359 DEBUG 16276 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2022-04-27 18:53:02.360 TRACE 16276 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Apr 27 18:53:02 JST 2022, status=404, error=Not Found, message=No message available, path=/webjars/jquery/3.4.1/jquery.min.js}]
+2022-04-27 18:53:02.368 TRACE 16276 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 18:53:02.370 TRACE 16276 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 18:53:02.372 DEBUG 16276 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 19:01:36.096 TRACE 16276 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/0000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:01:36.103 TRACE 16276 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 19:01:36.115 DEBUG 16276 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 19:01:36.118 TRACE 16276 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:01:36.120 DEBUG 16276 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 19:01:36.123 TRACE 16276 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:01:36.126 TRACE 16276 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 19:01:36.130 TRACE 16276 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 19:01:36.134 TRACE 16276 --- [http-nio-8080-exec-7] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@30a662eb, org.apache.catalina.connector.ResponseFacade@4de82cb6]
+2022-04-27 19:01:36.196 TRACE 16276 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 19:01:36.200 TRACE 16276 --- [http-nio-8080-exec-7] o.s.w.s.v.InternalResourceViewResolver   : View with key [error] served from cache
+2022-04-27 19:01:36.202 DEBUG 16276 --- [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 19:01:36.204 TRACE 16276 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@7470cb2b] 
+2022-04-27 19:01:36.225 DEBUG 16276 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 19:01:36.280 TRACE 16276 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/5.1.3/css/bootstrap.min.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:01:36.281 TRACE 16276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/5.1.3/js/bootstrap.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:01:36.281 TRACE 16276 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/webjars/jquery/3.4.1/jquery.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:01:36.284 TRACE 16276 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 19:01:36.286 TRACE 16276 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 19:01:36.287 TRACE 16276 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 19:01:36.288 TRACE 16276 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 19:01:36.287 TRACE 16276 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 19:01:36.291 TRACE 16276 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 19:01:36.293 TRACE 16276 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Applying default cacheSeconds=0
+2022-04-27 19:01:36.294 TRACE 16276 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Applying default cacheSeconds=0
+2022-04-27 19:01:36.295 DEBUG 16276 --- [http-nio-8080-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 19:01:36.297 TRACE 16276 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:01:36.303 DEBUG 16276 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 19:01:36.306 TRACE 16276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:01:36.306 TRACE 16276 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:01:36.310 DEBUG 16276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2022-04-27 19:01:36.311 TRACE 16276 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:01:36.320 DEBUG 16276 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2022-04-27 19:01:36.321 TRACE 16276 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error]}, { [/error], produces [text/html]}]
+2022-04-27 19:01:36.325 TRACE 16276 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-04-27 19:01:36.327 TRACE 16276 --- [http-nio-8080-exec-10] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@255e4b21]
+2022-04-27 19:01:36.331 DEBUG 16276 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-27 19:01:36.336 TRACE 16276 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Apr 27 19:01:36 JST 2022, status=404, error=Not Found, message=No message available, path=/webjars/jquery/3.4.1/jquery.min.js}]
+2022-04-27 19:01:36.340 TRACE 16276 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 19:01:36.343 TRACE 16276 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:01:36.345 DEBUG 16276 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 19:01:59.568 TRACE 16276 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/0000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:01:59.573 TRACE 16276 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 19:01:59.583 DEBUG 16276 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 19:01:59.585 TRACE 16276 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:01:59.587 DEBUG 16276 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 19:01:59.591 TRACE 16276 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:01:59.596 TRACE 16276 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 19:01:59.598 TRACE 16276 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 19:01:59.602 TRACE 16276 --- [http-nio-8080-exec-8] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@4722ab40, org.apache.catalina.connector.ResponseFacade@4496d194]
+2022-04-27 19:01:59.663 TRACE 16276 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 19:01:59.666 TRACE 16276 --- [http-nio-8080-exec-8] o.s.w.s.v.InternalResourceViewResolver   : View with key [error] served from cache
+2022-04-27 19:01:59.667 DEBUG 16276 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 19:01:59.670 TRACE 16276 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@7b0fa6be] 
+2022-04-27 19:01:59.692 DEBUG 16276 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 19:01:59.746 TRACE 16276 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/webjars/jquery/3.4.1/jquery.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:01:59.746 TRACE 16276 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/5.1.3/css/bootstrap.min.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:01:59.748 TRACE 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/5.1.3/js/bootstrap.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:01:59.751 TRACE 16276 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 19:01:59.749 TRACE 16276 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 19:01:59.753 TRACE 16276 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 19:01:59.754 TRACE 16276 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 19:01:59.754 TRACE 16276 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 19:01:59.755 TRACE 16276 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 19:01:59.758 DEBUG 16276 --- [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 19:01:59.759 TRACE 16276 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Applying default cacheSeconds=0
+2022-04-27 19:01:59.760 TRACE 16276 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:01:59.763 DEBUG 16276 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 19:01:59.763 TRACE 16276 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Applying default cacheSeconds=0
+2022-04-27 19:01:59.766 TRACE 16276 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:01:59.771 TRACE 16276 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error]}, { [/error], produces [text/html]}]
+2022-04-27 19:01:59.776 TRACE 16276 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:01:59.775 TRACE 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:01:59.777 TRACE 16276 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-04-27 19:01:59.778 DEBUG 16276 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2022-04-27 19:01:59.784 DEBUG 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2022-04-27 19:01:59.784 TRACE 16276 --- [http-nio-8080-exec-5] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@2eb8dea9]
+2022-04-27 19:01:59.791 DEBUG 16276 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-27 19:01:59.793 TRACE 16276 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Apr 27 19:01:59 JST 2022, status=404, error=Not Found, message=No message available, path=/webjars/jquery/3.4.1/jquery.min.js}]
+2022-04-27 19:01:59.799 TRACE 16276 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 19:01:59.801 TRACE 16276 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:01:59.804 DEBUG 16276 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 19:02:44.610 TRACE 16276 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/0000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:02:44.617 TRACE 16276 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 19:02:44.628 DEBUG 16276 --- [http-nio-8080-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 19:02:44.631 TRACE 16276 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:02:44.633 DEBUG 16276 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 19:02:44.636 TRACE 16276 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:02:44.640 TRACE 16276 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 19:02:44.644 TRACE 16276 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 19:02:44.645 TRACE 16276 --- [http-nio-8080-exec-9] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@95aa2de, org.apache.catalina.connector.ResponseFacade@263c06fd]
+2022-04-27 19:02:44.728 TRACE 16276 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 19:02:44.731 TRACE 16276 --- [http-nio-8080-exec-9] o.s.w.s.v.InternalResourceViewResolver   : View with key [error] served from cache
+2022-04-27 19:02:44.734 DEBUG 16276 --- [http-nio-8080-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 19:02:44.735 TRACE 16276 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@588722fa] 
+2022-04-27 19:02:44.761 DEBUG 16276 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 19:02:44.823 TRACE 16276 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/5.1.3/css/bootstrap.min.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:02:44.823 TRACE 16276 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/5.1.3/js/bootstrap.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:02:44.827 TRACE 16276 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 19:02:44.824 TRACE 16276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/webjars/jquery/3.4.1/jquery.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:02:44.828 TRACE 16276 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 19:02:44.830 TRACE 16276 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 19:02:44.832 TRACE 16276 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 19:02:44.832 TRACE 16276 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 19:02:44.835 TRACE 16276 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 19:02:44.835 DEBUG 16276 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 19:02:44.835 TRACE 16276 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Applying default cacheSeconds=0
+2022-04-27 19:02:44.835 TRACE 16276 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Applying default cacheSeconds=0
+2022-04-27 19:02:44.835 TRACE 16276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:02:44.835 DEBUG 16276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 19:02:44.841 TRACE 16276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:02:44.843 TRACE 16276 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error]}, { [/error], produces [text/html]}]
+2022-04-27 19:02:44.843 TRACE 16276 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:02:44.846 TRACE 16276 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-04-27 19:02:44.846 TRACE 16276 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:02:44.847 DEBUG 16276 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2022-04-27 19:02:44.847 TRACE 16276 --- [http-nio-8080-exec-2] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@502beb4]
+2022-04-27 19:02:44.849 DEBUG 16276 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2022-04-27 19:02:44.851 DEBUG 16276 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-27 19:02:44.852 TRACE 16276 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Apr 27 19:02:44 JST 2022, status=404, error=Not Found, message=No message available, path=/webjars/jquery/3.4.1/jquery.min.js}]
+2022-04-27 19:02:44.852 TRACE 16276 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 19:02:44.855 TRACE 16276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:02:44.856 DEBUG 16276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 19:04:32.297 TRACE 16276 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/0000", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:04:32.301 TRACE 16276 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 3 interceptors
+2022-04-27 19:04:32.309 DEBUG 16276 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 19:04:32.309 TRACE 16276 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:04:32.313 DEBUG 16276 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 19:04:32.318 TRACE 16276 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:04:32.321 TRACE 16276 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error], produces [text/html]}, { [/error]}]
+2022-04-27 19:04:32.323 TRACE 16276 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-04-27 19:04:32.325 TRACE 16276 --- [http-nio-8080-exec-6] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@3fadf9d1, org.apache.catalina.connector.ResponseFacade@4f979dc9]
+2022-04-27 19:04:32.388 TRACE 16276 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 19:04:32.390 TRACE 16276 --- [http-nio-8080-exec-6] o.s.w.s.v.InternalResourceViewResolver   : View with key [error] served from cache
+2022-04-27 19:04:32.390 DEBUG 16276 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-04-27 19:04:32.390 TRACE 16276 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Rendering view [org.thymeleaf.spring6.view.ThymeleafView@68c3d46d] 
+2022-04-27 19:04:32.416 DEBUG 16276 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}
+2022-04-27 19:04:32.467 TRACE 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/5.1.3/css/bootstrap.min.css", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:04:32.472 TRACE 16276 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 19:04:32.473 TRACE 16276 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/webjars/bootstrap/5.1.3/js/bootstrap.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:04:32.474 TRACE 16276 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/webjars/jquery/3.4.1/jquery.min.js", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:04:32.474 TRACE 16276 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 19:04:32.476 TRACE 16276 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 19:04:32.477 TRACE 16276 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Matching patterns [/webjars/**, /**]
+2022-04-27 19:04:32.479 TRACE 16276 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 19:04:32.481 TRACE 16276 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]] and 3 interceptors
+2022-04-27 19:04:32.482 TRACE 16276 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Applying default cacheSeconds=0
+2022-04-27 19:04:32.484 DEBUG 16276 --- [http-nio-8080-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-04-27 19:04:32.486 TRACE 16276 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:04:32.486 TRACE 16276 --- [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Applying default cacheSeconds=0
+2022-04-27 19:04:32.488 DEBUG 16276 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND, headers={masked}
+2022-04-27 19:04:32.494 TRACE 16276 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-04-27 19:04:32.498 TRACE 16276 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 matching mappings: [{ [/error]}, { [/error], produces [text/html]}]
+2022-04-27 19:04:32.501 TRACE 16276 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-04-27 19:04:32.504 TRACE 16276 --- [http-nio-8080-exec-9] o.s.web.method.HandlerMethod             : Arguments: [org.apache.catalina.core.ApplicationHttpRequest@7b759116]
+2022-04-27 19:04:32.506 TRACE 16276 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:04:32.508 DEBUG 16276 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-27 19:04:32.509 TRACE 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:04:32.511 TRACE 16276 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Apr 27 19:04:32 JST 2022, status=404, error=Not Found, message=No message available, path=/webjars/jquery/3.4.1/jquery.min.js}]
+2022-04-27 19:04:32.513 DEBUG 16276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2022-04-27 19:04:32.515 TRACE 16276 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2022-04-27 19:04:32.513 DEBUG 16276 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2022-04-27 19:04:32.525 TRACE 16276 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2022-04-27 19:04:32.527 DEBUG 16276 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404, headers={masked}

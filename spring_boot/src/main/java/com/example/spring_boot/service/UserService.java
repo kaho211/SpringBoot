@@ -9,10 +9,11 @@ import com.example.spring_boot.repository.UserRepository;
 
 import java.util.Optional;
 
-// repositoryの処理を呼び出すServiceを作成するビジネスロジックのみ書くこと！（今回はビジネスロジックがないため、repositoryのメソッドを呼び出す）
+//repositoryの処理を呼び出すServiceを作成するビジネスロジックのみ書くこと！（今回はビジネスロジックがないため、repositoryのメソッドを呼び出す）
 @Service
 public class UserService {
     @Autowired
+    // (required = false)
     private UserRepository userRepository;
 
     public List<User> findAll() {
